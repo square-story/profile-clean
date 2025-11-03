@@ -1,0 +1,23 @@
+{
+  "name": "profile-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm --prefix server test",
+    "dev": "concurrently \"pnpm --prefix server dev\" \"pnpm --prefix web dev\"",
+    "format": "prettier --write ."
+  },
+  "directories": {
+    "web": "web",
+    "server": "server"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "prettier": "^3.6.2"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1"
+}
